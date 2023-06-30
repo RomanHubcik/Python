@@ -1,0 +1,31 @@
+Espresso = $1.50
+- 50ml Water
+- 18g Coffee
+
+Latte = $2.50
+- 200ml Water
+- 150ml Milkt
+- 24g Coffee
+
+Cappucino - $3.00
+- 250ml Water
+- 100ml Milk
+- 24g Coffee
+
+
+Machine resources:
+- 300ml Water
+- 200ml Milk
+- 100g Coffee
+
+Coins:
+Penny - $0.01
+Nickel - $0.05
+Dime - $0.10
+Quarter - $0.25
+
+
+1. Print report (resources)
+2. Sufficient resources?
+3. Sufficient coins
+4. do transaction if success
