@@ -10,10 +10,10 @@ from newscatcherapi import NewsCatcherApiClient
 # with open('learning_code/3. Intermediate projects/news.htm', 'w', encoding="utf-8") as f:
 #     f.write(str(info))
 
-# Worldnews API - get news from usa, mentioning russia
-response = requests.get(url="https://api.worldnewsapi.com/search-news?api-key=36d231b0056346e7adf29dd6bbd8d89d&source-countries=us&entities=LOC:Russia ")
-with open('learning_code/3. Intermediate projects/russia.htm', 'w', encoding="utf-8") as f:
-    f.write(str(response.json()))
+# # Worldnews API - get news from usa, mentioning russia
+# response = requests.get(url="https://api.worldnewsapi.com/search-news?api-key=36d231b0056346e7adf29dd6bbd8d89d&source-countries=us&entities=LOC:Russia ")
+# with open('learning_code/3. Intermediate projects/russia.htm', 'w', encoding="utf-8") as f:
+#     f.write(str(response.json()))
 
 # # Worldnews API - select very negative sentiment (usa mentioning russia)
 # requests.get(url="https://api.worldnewsapi.com/search-news?api-key=36d231b0056346e7adf29dd6bbd8d89d&source-countries=us&entities=LOC:Russia&min-sentiment=-1max-sentiment=-0.6")
