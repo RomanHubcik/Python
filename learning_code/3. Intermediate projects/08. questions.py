@@ -24,12 +24,28 @@
 # print('Solutions:', solutions)
 
 #or all combinations - nested loop ...
+li = [1,2,3,4,5,6,7]
+desiredSum = 5
+a = 0
+b = 0
+i = 0
+j = 0
+
+for i in li:
+    #print(f"i = {i}")
+    for j in li:
+        comboSum = i + j
+        #print(f"j = {j}")
+        #print(f"combosum = {comboSum}")
+        if comboSum == desiredSum:
+            print(f"Yes, combination exists for i = {i} and j = {j}.")
+
 
 
 #2. overlap
-li=[[1,5], [8,9], [3,6]]
+#li=[[1,5], [8,9], [3,6]]
 
 #check if the 2nd of ith is > than 2nd of jth
-for item in li:
-    print(item[1])
-    if item[1] <= 
+# for item in li:
+#     print(item[1])
+#     if item[1] <= 
