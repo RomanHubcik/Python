@@ -23,6 +23,8 @@
 # solutions = [pair for pair in permutations(li, 2) if (pair+pair) == 6]
 # print('Solutions:', solutions)
 
+#or all combinations - nested loop ...
+
 
 #2. overlap
 li=[[1,5], [8,9], [3,6]]
@@ -30,3 +32,4 @@ li=[[1,5], [8,9], [3,6]]
 #check if the 2nd of ith is > than 2nd of jth
 for item in li:
     print(item[1])
+    if item[1] <= 
